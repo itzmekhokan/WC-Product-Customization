@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: WC Product Customize
-Plugin URI: http://dualcube.com
+Plugin URI: http://itzmekhokan.webuda.com
 Description: WC Products Customization
-Author: Dualcube
+Author: itzmekhokan
 Version: 1.0.0
-Author URI: http://dualcube.com
+Author URI: http://itzmekhokan.webuda.com
 */
 if ( ! class_exists( 'WC_Dependencies' ) )
 	require_once 'includes/class-wcpc-dependencies.php';
