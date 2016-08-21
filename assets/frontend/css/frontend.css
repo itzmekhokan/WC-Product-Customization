@@ -1,0 +1,21 @@
+.makepkgForm{}
+#makepackage{padding-left: 3px;}
+#makepackage .pack_pro{ float: left; margin: 5px; width: 30%;}
+.makepkgForm .price .package_total{font-size:1.25em; width:57%;}
+
+/** product 360 view **/
+.product_360_wrap{width: 100%; height: 343px;}
+.product_360_wrap span.icon360{
+    background: rgba(0, 0, 0, 0) url("../../images/360_view_icon.png") no-repeat scroll 0 0;
+    left: -0.5em;
+    line-height: 3.236;
+    margin: 0;
+    min-height: 3.236em;
+    min-width: 5.236em;
+    padding: 0.202em;
+    position: absolute;
+    text-align: center;
+    top: 18.5em;
+}
+/*#carousel .slides{width: 100% !important;}*/
+#carousel .slides li{width: 84px !important;}

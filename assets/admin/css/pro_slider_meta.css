@@ -1,0 +1,146 @@
+
+/** product slider in wc  product add/edit page **/
+
+.product_sliders .image {
+    height: auto !important;
+    width: 80px !important;
+}
+
+.product_sliders .image img {
+    height: auto !important;
+    width: 100% !important;
+}
+
+#woocommerce_product_slider .inside {
+    margin: 0;
+    padding: 0;
+}
+#woocommerce_product_slider .inside .add_product_sliders {
+    padding: 0 12px 12px;
+}
+#woocommerce_product_slider .inside #product_slider_container {
+    padding: 0 0 0 9px;
+}
+#woocommerce_product_slider .inside #product_slider_container ul {
+    margin: 0;
+    padding: 0;
+}
+#woocommerce_product_slider .inside #product_slider_container ul::after, #woocommerce_product_slider .inside #product_slider_container ul::before {
+    content: " ";
+    display: table;
+}
+#woocommerce_product_slider .inside #product_slider_container ul::after {
+    clear: both;
+}
+#woocommerce_product_slider .inside #product_slider_container ul li.add, #woocommerce_product_slider .inside #product_slider_container ul li.image, #woocommerce_product_slider .inside #product_slider_container ul li.wc-metabox-sortable-placeholder {
+    background: #f7f7f7 none repeat scroll 0 0;
+    border: 1px solid #d5d5d5;
+    border-radius: 2px;
+    box-sizing: border-box;
+    cursor: move;
+    float: left;
+    margin: 9px 9px 0 0;
+    position: relative;
+    width: 80px;
+}
+#woocommerce_product_slider .inside #product_slider_container ul li.add img, #woocommerce_product_slider .inside #product_slider_container ul li.image img, #woocommerce_product_slider .inside #product_slider_container ul li.wc-metabox-sortable-placeholder img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+#woocommerce_product_slider .inside #product_slider_container ul li.wc-metabox-sortable-placeholder {
+    border: 3px dashed #ddd;
+    position: relative;
+}
+#woocommerce_product_slider .inside #product_slider_container ul li.wc-metabox-sortable-placeholder::after {
+    color: #ddd;
+    content: "";
+    font-family: WooCommerce;
+    font-size: 2.618em;
+    font-variant: normal;
+    font-weight: 400;
+    height: 100%;
+    left: 0;
+    line-height: 72px;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    text-indent: 0;
+    text-transform: none;
+    top: 0;
+    width: 100%;
+}
+#woocommerce_product_slider .inside #product_slider_container ul ul.actions li a.delete::before, #woocommerce_product_slider .inside #product_slider_container ul ul.actions li a.view::before {
+    background-color: #000;
+    color: #fff;
+    font-family: WooCommerce;
+    font-variant: normal;
+    font-weight: 400;
+    left: 0;
+    line-height: 1;
+    text-align: center;
+    text-transform: none;
+}
+#woocommerce_product_slider .inside #product_slider_container ul ul.actions {
+    display: none;
+    padding: 2px;
+    position: absolute;
+    right: -8px;
+    top: -8px;
+}
+#woocommerce_product_slider .inside #product_slider_container ul ul.actions li {
+    float: right;
+    margin: 0 0 0 2px;
+}
+#woocommerce_product_slider .inside #product_slider_container ul ul.actions li a {
+    display: block;
+    height: 0;
+    margin: 0;
+    overflow: hidden;
+    width: 1em;
+}
+#woocommerce_product_slider .inside #product_slider_container ul ul.actions li a.tips {
+    cursor: pointer;
+}
+#woocommerce_product_slider .inside #product_slider_container ul ul.actions li a.view {
+    display: block;
+    font-size: 1.4em;
+    height: 1em;
+    position: relative;
+    text-indent: -9999px;
+    width: 1em;
+}
+#woocommerce_product_slider .inside #product_slider_container ul ul.actions li a.view::before {
+    content: "";
+    height: 100%;
+    margin: 0;
+    position: absolute;
+    text-indent: 0;
+    top: 0;
+    width: 100%;
+}
+#woocommerce_product_slider .inside #product_slider_container ul ul.actions li a.delete {
+    display: block;
+    font-size: 1.4em;
+    height: 1em;
+    position: relative;
+    text-indent: -9999px;
+    width: 1em;
+}
+#woocommerce_product_slider .inside #product_slider_container ul ul.actions li a.delete::before {
+    border-radius: 100%;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    content: "";
+    height: 100%;
+    margin: 0;
+    position: absolute;
+    text-indent: 0;
+    top: 0;
+    width: 100%;
+}
+#woocommerce_product_slider .inside #product_slider_container ul ul.actions li a.delete:hover before {
+    background-color: #a00;
+}
+#woocommerce_product_slider .inside #product_slider_container ul li:hover ul.actions {
+    display: block;
+}
